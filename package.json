@@ -1,0 +1,25 @@
+{
+  "name": "sf-mcp-clean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/http.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/http.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.1.2",
+    "typescript": "^7.0.2"
+  }
+}
